@@ -1,4 +1,4 @@
-function getShippingMessage(country, pric, delivetyFee) { 
+function getShippingMessage(country, price, deliveryFee) { 
     return `Shipping to ${country} will cost ${pric + delivetyFee} credits`
 }
 
